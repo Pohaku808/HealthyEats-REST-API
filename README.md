@@ -32,9 +32,11 @@ This project is a REST API built with TypeScript, Node.js, and Express that supp
 <h3>🧰 Code Snippets </h3>
 ---
   <p align="center">
-      <img src="images/HE-Home.png" alt="home" width="45%"/>
-      <img src="images/HE-Recipes.png" alt="recipes" width="45%"/>
-      <img src="images/HE-View Recipe.png" alt="View Recipe" width="45%"/>
-      <img src="images/HE-Edit Recipe.png" alt="Edit Recipe" width="45%"/>
-      <img src="images/HE-Add Recipe.png" alt="Add Recipe" width="45%"/>
+      <img src="images/API-app file.png" alt="" width="45%"/>
+      <img src="images/API-controller.png" alt="" width="45%"/>
+      <img src="images/API-dao.png" alt="" width="45%"/>
+      <img src="images/API-model.png" alt="" width="45%"/>
+      <img src="images/API-mysql.png" alt="" width="45%"/>
+      <img src="images/API-queries.png" alt="" width="45%"/>
+      <img src="images/API-routes.png" alt="" width="45%"/>
   </p>
