@@ -1,21 +1,20 @@
-<h1 align="center">🥑 HealthyEats — Simple Recipe Manager</h3>
+<h1 align="center">🛜 HealthyEats REST API</h3>
 
 ---
 
 <h3>📌 Introduction</h3>
 
-HealthyEats is a simple recipe manager for managing user-created recipes. The user is able to create a new recipe, view a recipe, edit a recipe and delete a recipe. This applicatio was developed into 2 separate applications. One application was developed using React and the other was developed using Angular. Both applications utilize a REST API that i created using TypeScript to handle and store the data of HealthyEats.
+This project is a REST API built with TypeScript, Node.js, and Express that supports the HealthyEats React and Angular applications. It handles recipe data and allows users to create, view, update, and delete recipes while connecting the frontend apps to the backend.
 
 ---
 
 <h3>✅ Functional Requirements</h3>
 
-- Home Page
-- View recipe
-- Create recipe
-- Edit Recipe
-- Delete Recipe
-- Both apps connect to a backend API to store and handle recipe data
+- Accept and process HTTP requests (GET, POST, PUT, DELETE).
+- Return data in JSON format to the frontend applications.
+- Connect and communicate with both React and Angular applications.
+- Handle incoming data and store recipe information.
+- Route requests to the correct endpoints.
 
 ---
 
@@ -23,35 +22,15 @@ HealthyEats is a simple recipe manager for managing user-created recipes. The us
 
 | Tech               | Purpose                                                           |
 | ------------------ | ----------------------------------------------------------------- |
-| React              | Frontend framework for one application                            |
-| Angular            | Frontend framework for the other application                      |
-| Bootstrap 5        | Responsive UI framework                                           |
-| HTML/CSS           | UI layout and styling                                             |
+| Typescript         | Used to build the API with type safety and better code structure  |
+| Node.js / Express  | Backend runtime and framework for the REST API                    |
+
+
 
 ---
 
-<h3>🧰 Architecture & Design </h3>
-
-- **Diagrams include:**
-  - **Sitemap**
-  <p align="center">
-      <img src="images/HealthyEats Sitemap.png" alt="Sitemap" width="75%"/>
-  </p>
-
-  - **User Interface Wireframes**
-  <p align="center">
-      <img src="images/HealthyEats Recipes UI Wireframe.png" alt="recipes" width="45%"/>
-      <img src="images/Healthy Eats View Recipe UI Wireframe.png" alt="view recipe" width="45%"/>
-  </p>
-  
-  - **Entity-Relationship Diagram**
-  <p align="center">
-    <img src="images/HE-ER Diagram.png" alt="ER Diagram" width="75%"/>
-  </p>
-
+<h3>🧰 Code Snippets </h3>
 ---
-
-<h3>🎓 Final Product</h3>
   <p align="center">
       <img src="images/HE-Home.png" alt="home" width="45%"/>
       <img src="images/HE-Recipes.png" alt="recipes" width="45%"/>
